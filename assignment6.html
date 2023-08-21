@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>Assignment6</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: grid;
+        grid-template-areas:
+          "one one one one"
+          "two three four five"
+          "two six seven five"
+          "two six eight  nine";
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50% 18% 18% 18%;
+        height: 90vh;
+        grid-gap: 5px;
+        text-align: center;
+        font-family: sans-serif;
+      }
+
+      div {
+        background-color: brown;
+      }
+
+      #one {
+        grid-area: one;
+      }
+
+      #two {
+        grid-area: two;
+      }
+
+      #three {
+        grid-area: three;
+      }
+
+      #four {
+        grid-area: four;
+      }
+
+      #five {
+        grid-area: five;
+      }
+
+      #six {
+        grid-area: six;
+      }
+
+      #seven {
+        grid-area: seven;
+      }
+
+      #eight {
+        grid-area: eight;
+      }
+
+      #nine {
+        grid-area: nine;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="one"> 1</div>
+    <div id="two"> 2</div>
+    <div id="three"> 3</div>
+    <div id="four"> 4</div>
+    <div id="five"> 5</div>
+    <div id="six"> 6</div>
+    <div id="seven"> 7</div>
+    <div id="eight"> 8</div>
+    <div id="nine"> 9</div>
+  </body>
+</html>
