@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shapes</title>
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+
+      .square {
+        width: 250px;
+        height: 250px;
+        background-color: aqua;
+      }
+
+      .circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 40%;
+        background-color: aqua;
+      }
+
+      .border {
+        width: 200px;
+        height: 200px;
+        border-top: 10px solid pink;
+        border-left: 10px solid rgb(34, 149, 42);
+        border-right: 10px solid rgb(21, 0, 255);
+        border-bottom: 10px solid rgb(92, 50, 70);
+      }
+      
+
+
+      .triangle {
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-bottom: 200px solid rgb(119, 165, 213);
+        /* transform: rotate(45deg); */
+        /* You can change the color here */
+      }
+
+      .rotated-triangle {
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-bottom: 200px solid rgb(119, 165, 213);
+        transform: rotate(45deg);
+        margin-left: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Square</h1>
+      <div class="square"></div>
+    </div>
+    <div class="content">
+      <h1>Circle</h1>
+      <div class="circle"></div>
+    </div>
+    <div class="content">
+      <h1>Border</h1>
+      <div class="border"></div>
+    </div>
+    
+    <div class="content">
+      <h1>Triangle</h1>
+      <div class="triangle"></div>
+    </div>
+    <div class="content">
+      <h1>Rotated Triangle</h1>
+      <div class="rotated-triangle"></div>
+    </div>
+  </body>
+</html>
